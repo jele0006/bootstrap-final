@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+.title-bar {
+    background-color: rgba(131, 222, 89, 0.8);
+    
+}
+.page-title {
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+    margin-bottom: 0rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1.5px 1px green;
+    color: #333;
+}
+.display-3 {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    padding-top: 1rem;
+    font-family: 'Lora', serif;
+}
+main {
+    padding-top: 2rem;
+    background-color: rgba(131, 222, 89, 0.2);
+}
+/************ NAV MENU *************/
+
+
+#logo-image {
+    width: 15%;
+    height: 10%;
+}
+.nav-item {
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#title-bg {
+    height: 100%;
+    width: 50%;
+}
+#daggers {
+    width: 80%;
+    text-align: center;
+}
+.mainlogo {
+    padding-top: .5rem;
+}
+
+/************ CONTENT *************/
+
+
+#newsfeed {
+   background-color: rgba(131, 222, 89, 0.2); 
+}
+#title-bg1 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.news-title {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding-left: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    text-shadow: 1.5px 1px #222;
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+.help {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: .8rem;
+    padding-right: .8rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+#contact {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#email {
+    margin-left: .2rem;
+}
+/************ FOOTER *************/
+
+
+footer {
+  color: gray;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+  width: 100%;
+  text-align: right;
+}
+#footer-row {
+ float: left;
+ padding-left: 1rem;
+ padding-top: 1rem;
+}
+.social-media {
+    margin-right: 1.5rem;
+}
+#instagram:hover, #youtube:hover, #pinterest:hover, #facebook:hover{
+    background-color: rgba(131, 222, 89, 0.8);
+}
+#josh {
+    font-family: 'Roboto', sans-serif;
+}
